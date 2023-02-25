@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 1rem;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
