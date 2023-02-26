@@ -5,6 +5,8 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --menu-titulo: #EB9B00;
+    --menu-item: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {

@@ -5,9 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
-.cabecalho__menu {
+.container {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -21,4 +22,34 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 63vw;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1rem;
+    background-color: var(--branco);
+    list-style-type: none;
+} 
+
+.lista-menu__titulo {
+    color: var(--menu-titulo);
+}
+
+.lista-menu__link {
+    background: var(--menu-item);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-decoration: none;
 }
