@@ -53,6 +53,7 @@
 .lista-menu__link {
     background: var(--menu-item);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     text-decoration: none;
