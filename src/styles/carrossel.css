@@ -24,16 +24,58 @@
 }
 
 .card {
-    background-color: #FFFFFF;
-    padding: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    align-items: start;
+}
+
+.descricao__titulo {
+    color: var(--menu-titulo);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.descricao__titulo-livro {
+    margin: 0.5rem 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #002F52;
+}
+
+.descricao__texto {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    width: 160px;
 }
 
 .card__botoes {
     display: flex;
     justify-content: space-between;
 }
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.botoes__item {
+    list-style-type: none;
+}
+
+.botoes__ancora {
+    background-color: var(--menu-titulo);
+    padding: 1rem 2.26rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--branco);
+}
+
